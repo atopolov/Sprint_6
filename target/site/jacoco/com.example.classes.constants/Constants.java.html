@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Constants.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">untitled</a> &gt; <a href="index.source.html" class="el_package">com.example.classes.constants</a> &gt; <span class="el_source">Constants.java</span></div><h1>Constants.java</h1><pre class="source lang-java linenums">package com.example.classes.constants;
+
+import java.util.List;
+
+// Класс с константами
+<span class="nc" id="L6">public class Constants {</span>
+
+    // Константы для класса Alex
+    public static final String ALEX_PLACE_OF_LIVING = &quot;Нью-Йоркский зоопарк&quot;;
+<span class="fc" id="L10">    public static final List&lt;String&gt; ALEX_FRIENDS_LIST = List.of(&quot;Марти&quot;, &quot;Глория&quot;, &quot;Мелман&quot;);</span>
+
+    // Константы для проверки метода getKittens
+    public static final int ALEX_KITTENS = 0;
+    public static final int FELINE_KITTENS = 1;
+
+    // Константы для проверки пола животного
+<span class="fc" id="L17">    public static final List&lt;String&gt; ANIMAL_SEX = List.of(&quot;Самец&quot;, &quot;Самка&quot;);</span>
+    public static final String ANIMAL_SEX_EXCEPTION_TEXT = &quot;Используйте допустимые значения пола животного - самец или самка&quot;;
+
+    // Константы для проверки типа животного
+<span class="fc" id="L21">    public static final List&lt;String&gt; ANIMAL_KIND = List.of(&quot;Травоядное&quot;, &quot;Хищник&quot;);</span>
+    public static final String ANIMAL_KIND_EXCEPTION_TEXT = &quot;Неизвестный вид животного, используйте значение Травоядное или Хищник&quot;;
+
+    // Константы для проверки еды животного
+<span class="fc" id="L25">    public static final List&lt;String&gt; PREDATOR_FOOD = List.of(&quot;Животные&quot;, &quot;Птицы&quot;, &quot;Рыба&quot;);</span>
+<span class="fc" id="L26">    public static final List&lt;String&gt; HERBIVORE_FOOD = List.of(&quot;Трава&quot;, &quot;Различные растения&quot;);</span>
+
+    // Константы для проверки звука животного
+    public static final String CAT_SOUND = &quot;Мяу&quot;;
+
+    // Константы для проверки семейств животных
+    public static final String FAMILY_KINDS = &quot;Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи&quot;;
+    public static final String PREDATOR_FAMILY_KIND = &quot;Кошачьи&quot;;
+
+    // Константы для проверки некорректного ввода типа животного
+<span class="fc" id="L36">    public static final List&lt;String&gt;INVALID_ANIMAL_TEST_DATA = List.of(&quot;Predator&quot;, &quot;Всеядное&quot;, &quot;Undefined&quot;);</span>
+
+
+
+
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
